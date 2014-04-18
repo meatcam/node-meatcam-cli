@@ -15,7 +15,7 @@ if (config.get('interval')) {
   interval.update(parseInt(config.get('interval'), 10), config.get('message'));
 }
 else {
-  capturer.capture(function(error, gif)) {
+  capturer.capture(function(error, gif) {
     if (err) throw err;
     poster.send(config.get('message'), gif, function(err) {
       if (err) throw err;
