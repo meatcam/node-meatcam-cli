@@ -1,0 +1,30 @@
+{
+  "name": "node-meatcam-cli",
+  "version": "0.0.1",
+  "description": "Command line interface for driving a Raspi Meatcam",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imakewebthings/node-meatcam-cli.git"
+  },
+  "keywords": [
+    "meat",
+    "cli"
+  ],
+  "author": "Caleb Troughton <caleb@imakewebthings.com> (http://imakewebthings.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imakewebthings/node-meatcam-cli/issues"
+  },
+  "homepage": "https://github.com/imakewebthings/node-meatcam-cli",
+  "dependencies": {
+    "meat-capture": "0.0.5",
+    "meat-post": "0.0.2",
+    "meat-interval": "0.0.3"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "meatcam": "index.js"
+  }
+}
