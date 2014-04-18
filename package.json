@@ -1,5 +1,5 @@
 {
-  "name": "node-meatcam-cli",
+  "name": "meatcam-cli",
   "version": "0.0.1",
   "description": "Command line interface for driving a Raspi Meatcam",
   "main": "index.js",
