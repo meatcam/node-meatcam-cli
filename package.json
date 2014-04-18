@@ -1,6 +1,6 @@
 {
   "name": "meatcam-cli",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Command line interface for driving a Raspi Meatcam",
   "main": "index.js",
   "scripts": {},
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/imakewebthings/node-meatcam-cli",
   "dependencies": {
-    "meat-capture": "0.0.5",
+    "meat-capture": "0.0.6",
     "meat-post": "0.0.2",
     "meat-interval": "0.0.3",
     "nconf": "~0.6.9"
