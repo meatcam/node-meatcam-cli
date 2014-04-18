@@ -11,7 +11,7 @@ var poster = new Poster(config.get());
 var Interval = require('meat-interval');
 var interval = new Interval(capturer, poster);
 
-if (config.get('interval') {
+if (config.get('interval')) {
   interval.update(parseInt(config.get('interval'), 10), config.get('message'));
 }
 else {
